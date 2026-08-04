@@ -1,13 +1,21 @@
-# mcp-figshare
+# @pipeworx/figshare
 
-Figshare MCP.
+[Figshare](https://figshare.com) MCP — research outputs (datasets, papers, posters, presentations). Public reads keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
+- `articles(query?, item_type?, page?, page_size?, order?)` — search articles
+- `article(id, version?)` — single article
+- `article_files(id, version?)` — files in an article
+- `collections(query?, page?, page_size?)` — search curated collections
+- `collection(id)` — single collection
+- `institutions()` — list institutions
+
+## Data source
+
+`https://api.figshare.com/v2/`
 
 ## Quick Start
 
@@ -23,7 +31,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -47,7 +55,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
