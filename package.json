@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-figshare",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Figshare MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-70812600f45d675d1d89946585c23ed87037e7c8e7d384a339607a257327f0d2",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-a8621432525a7773fdd2757314e49dbf1aa83f0f4ba4d7c2025efe3a32ca9fcb",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
