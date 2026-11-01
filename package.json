@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-figshare",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Figshare MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "figshare",
     "gatewaySlug": "figshare",
-    "sourceHash": "v1-2174744cf018c01f2f6f7d33e499b670dc8090a207c851e381970df7536ffb25",
-    "sourceCommit": "06a6b405041923c5ddf2ac2436e7c049e635f464"
+    "sourceHash": "v1-7f3acc4a6c7bd57b8d1d026d2fefc220524684c6bdd285ac1d2628aae086792f",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
